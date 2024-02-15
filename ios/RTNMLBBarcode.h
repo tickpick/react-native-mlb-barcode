@@ -1,4 +1,4 @@
-#import <RTNMLBBarcodeSpec/RTNMLBBarcodeSpec.h>
+//#import <RTNMLBBarcodeSpec/RTNMLBBarcodeSpec.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
