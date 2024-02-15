@@ -1,0 +1,51 @@
+{
+  "name": "react-native-mlb-barcode",
+  "version": "0.0.1",
+  "description": "Add numbers with Turbo Native Modules",
+  "react-native": "js/index",
+  "source": "js/index",
+  "scripts": {
+    "flow": "flow"
+  },
+  "files": [
+    "js",
+    "android",
+    "ios",
+    "react-native-mlb-barcode.podspec",
+    "!android/build",
+    "!ios/build",
+    "!**/__tests__",
+    "!**/__fixtures__",
+    "!**/__mocks__"
+  ],
+  "keywords": [
+    "react-native",
+    "ios",
+    "android"
+  ],
+  "repository": "https://github.com/tickpick/react-native-mlb-barcode",
+  "author": "Roger Chang <roger@tickpick.com> (https://github.com/rogerchang)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tickpick/react-native-mlb-barcode/issues"
+  },
+  "homepage": "https://github.com/tickpick/react-native-mlb-barcode#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.23.9",
+    "@babel/core": "^7.23.9",
+    "@babel/preset-flow": "^7.23.3",
+    "flow-bin": "^0.229.0"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "codegenConfig": {
+    "name": "RTNMLBBarcodeSpec",
+    "type": "modules",
+    "jsSrcsDir": "js",
+    "android": {
+      "javaPackageName": "com.rtnmlbbarcode"
+    }
+  }
+}
